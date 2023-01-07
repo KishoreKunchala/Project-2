@@ -16,4 +16,7 @@ isFraud: fraud transaction.
 
 Checked whether the dataset has any null values or not.Explored the transaction types.Plotted pie chart to find the distribution of transaction types.Checked the correlation.Then transformed the categorical features into numerical and transformed the values of the isFraud column into No Fraud and Fraud labels to have a better understanding of the output.
 
-Divided the data into train and test sets,then created DesicionTreeClassifier model and trained it.Then we can Classify whether a transaction is a fraud or not by feeding about a transaction into the model.
+Divided the data into train and test sets,then created DesicionTreeClassifier model by using Sklearn and trained it.Then we can Classify whether a transaction is a fraud or not by feeding about a transaction into the model.
+
+Python Libraries used:Numpy,Pandas,Plotly,Sklearn
+Machine Learning model:DecisionTreeClassifier
